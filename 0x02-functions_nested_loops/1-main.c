@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-printputchar();
+
 
 return (0);
 }
