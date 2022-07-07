@@ -2,7 +2,7 @@
 /**
 * main - causes an infinite loop
 * Return: 0
-* i is never incremented so it will always be less than 10 and since value is given;always print 0
+* line 14 and 16
 */
 
 int main(void)
