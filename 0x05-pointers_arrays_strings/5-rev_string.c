@@ -21,7 +21,7 @@ length2 = length1 - 1;
 		tmp = s[i];
 		s[i] = s[length2];
 		s[length2] = tmp;
-		s[length2] = 1;
+		length2 -= 1;
 	}
 
 
