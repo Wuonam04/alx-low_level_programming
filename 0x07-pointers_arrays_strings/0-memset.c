@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
 * _memset - set memory function
 * @s: string
