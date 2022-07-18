@@ -13,5 +13,5 @@ unsigned int a;
 for (a = 0; a < n; a++)
 	s[a] = b
 
-return (string);
+return (s);
 }
