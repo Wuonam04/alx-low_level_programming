@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stddef.h>
+#include <stdlib.h>
 /**
 * _strdup - string duplicator function
 *
@@ -13,7 +14,7 @@ int i = 1, j = 0;
 char *s;
 	if (str == NULL)
 		return (NULL);
-while str[i]
+while (str[i])
 	i++;
 s = (char *)malloc(i * sizeof(char) + 1);
 if (s == NULL)
@@ -23,6 +24,6 @@ while (j < i)
 	s[j] = str[j];
 	j++;
 }
-s[j] = "\0";
+s[j] = '\0';
 return (s);
 }
